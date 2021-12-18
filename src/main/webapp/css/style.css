@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Courier New", Courier, monospace;
+	padding: 10px;
+	background: #f1f1f1;
+}
+
+/* Header */
+.header{
+	font-family: "Courier New", Courier, monospace;
+	padding: 10px;
+	padding: 30px;
+	text-align: center;
+	background: #F0F8FF;
+}
+.header h1{
+	font-size: 50px;
+}
+
+
+/* columns in body */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+
+/* Image */
+.fakeImg{
+	background-color:#FFF8DC;
+	width: 100%;
+	padding: 20px;
+}
+
+/* cart */
+.card{
+	background-color: #F0F8FF;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* clear float after columns */
+.row:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/* footer */
+.footer{
+	padding: 20px;
+	text-align: center;
+	background:#F0F8FF;
+	margin-top:20px;
+}
+
+
+
+/* responsive layout */
+@media screen and(max-width: 800px){
+	.column{
+	width: 100%;
+	padding: 0;
+	}
+		.card{
+	width: 100%;
+	padding: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
